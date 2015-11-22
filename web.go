@@ -18,5 +18,5 @@ func main() {
 }
 
 func hello(res http.ResponseWriter, req *http.Request) {
-	fmt.Fprintf(res, "Testing GIT hello, world from %s", runtime.Version())
+	fmt.Fprintf(res, "making more changes hello, world from %s", runtime.Version())
 }
